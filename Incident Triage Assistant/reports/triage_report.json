@@ -1,0 +1,30 @@
+[
+  {
+    "original_log": {
+      "timestamp": "2024-06-01T10:00:00Z",
+      "src_ip": "192.168.1.10",
+      "dst_ip": "192.168.100.50",
+      "event_type": "ALERT",
+      "signature": "ET EXPLOIT Possible CVE-2023-1234 Attempt",
+      "payload": "GET /malicious.php"
+    },
+    "risk_score": 100,
+    "ioc_matches": [
+      "dst_ip: 192.168.100.50"
+    ],
+    "recommendation": "escalate"
+  },
+  {
+    "original_log": {
+      "timestamp": "2024-06-01T10:05:00Z",
+      "src_ip": "10.0.0.5",
+      "dst_ip": "8.8.8.8",
+      "event_type": "INFO",
+      "signature": "DNS Query",
+      "payload": "google.com"
+    },
+    "risk_score": 0,
+    "ioc_matches": [],
+    "recommendation": "ignore"
+  }
+]

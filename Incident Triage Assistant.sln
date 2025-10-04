@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Incident Triage Assistant", "Incident Triage Assistant\Incident Triage Assistant.pyproj", "{0D2825C8-93A4-44E2-9360-851A1E3DDE2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D2825C8-93A4-44E2-9360-851A1E3DDE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2825C8-93A4-44E2-9360-851A1E3DDE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92A290AC-C736-4BF7-A7D4-F6872950E762}
+	EndGlobalSection
+EndGlobal
